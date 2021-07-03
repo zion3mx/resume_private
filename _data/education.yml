@@ -1,13 +1,11 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
+- degree: 학사
+  uni: 안동대학교, 컴퓨터공학과
   year: 2004 &mdash; 2008
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+    - award: 2008 SW 공모대전(지식경제부, 한국IT전문가협회) / 2009.09.29 / 격려상 / Open API 기반 SNS / 이낙선 기술수님 멘토
+    - award: W.O.C(한국소프트웨어진흥원, NC Soft) / 2009.03.28 / 최우수상 / Android Content Browser Project / 이후 세계 대회인 ADC2 수상을 목표로 진행하고 Open Project로 기여 / 박성서 멘토
+    - award: 차세대통신 서비스모델 공모전(BT글로벌서비스코리아, 한국경제신문) / 2009.03.03 / 우수상 / 로밍 서비스를 대처할 Rabit API 기반의 BT Global Connection 서비스 개발 및 새로운 통신 비지니스 모델 제안
+    - award: 안동대학교 / 2008.11.07 / 최우수상 / J2EE 기반 웹 서버 모니터링 시스템 졸업 논문
+    - award: 3학년 1학기 성적 4.5/4.5
+  summary: 해병대 전역 후 김윤호 교수님 지도아래 객체지향 연구실 소속으로 다양한 프로젝트와 외부 활동을 통하여 개인 성장을 경험했습니다.. OOP을 통하여 가상 세계(virtual world)를 현실 세계(real world)로 연결해주는 서비스 및 기술에 매료된 시기였습니다.

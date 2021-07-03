@@ -1,16 +1,152 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# LINE
+- project: LAMP
+  role: NHN I&S(정규직), 개발지원
+  duration: 2012.03 &mdash; 2012.08
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description:
+    <li> 글로벌 광고의 모든 수주, 계약, 거래처 관리, 정산, 발행 업무를 자동화
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+
+
+# 행정안정부
+- project: NHN ESM2(EAI)시스템 개발
+  role: NHN I&S(정규직), 개발지원
+  duration: 2012.03 &mdash; 2012.08
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description:
+    <li> 관리자 View Flex
+    <li> 사용자 View Html, JQuery, Html markup, Javascript, Java
+    <li> NHN MDM(Master Data Management) 시스템
+    <li> 시스템 개발 환경 구축 및 전자결재 테스트 환경 구축
+    <li> 통합형상관리 지원 및 배포 테스트 자동화 구축(Nexus, Hudson, Maven, Ant)
+    <li> URL Call을 통한 데이터 전송 개발(XML기반 WebService 엔진사용)
+    <li> 데이터 통합 및 관리를 위해ESB(Mule) 파일럿 테스트
+    <li> 데이터그리드 제품 파일럿 테스트(Ext Js, xHtml, EJs Tree Grid)
+    <li> Flex, Neon Framework, Jsp, JQuery, Java, Servlet, Lucy, BlazeDS, Spring, SimpleFramework, iBatis, Oracle 11g, Soap
+
+
+# NHN I&S
+- project: NHN ESM2(EAI)시스템 개발
+  role: NHN I&S(정규직), 개발지원
+  duration: 2012.03 &mdash; 2012.08
+  # url: "#"
+  description:
+    <li> 관리자 View Flex
+    <li> 사용자 View Html, JQuery, Html markup, Javascript, Java
+    <li> NHN MDM(Master Data Management) 시스템
+    <li> 시스템 개발 환경 구축 및 전자결재 테스트 환경 구축
+    <li> 통합형상관리 지원 및 배포 테스트 자동화 구축(Nexus, Hudson, Maven, Ant)
+    <li> URL Call을 통한 데이터 전송 개발(XML기반 WebService 엔진사용)
+    <li> 데이터 통합 및 관리를 위해ESB(Mule) 파일럿 테스트
+    <li> 데이터그리드 제품 파일럿 테스트(Ext Js, xHtml, EJs Tree Grid)
+    <li> Flex, Neon Framework, Jsp, JQuery, Java, Servlet, Lucy, BlazeDS, Spring, SimpleFramework, iBatis, Oracle 11g, Soap
+
+# NHN I&S
+- project: OrangeCrew 법인 향해(업무)일지
+  role: NHN I&S(정규직), 개발지원
+  duration: 2011.12 &mdash; 2011.12
+  # url: "#"
+  description:
+    <li> 전자결재 기반 업무 입력 기안지 개발 지원
+    <li> UI 및 서버단 로직 개발
+    <li> Jsp, JQuery, Java, Servlet, Lucy, Spring, iBatis, Oracle 11g
+
+
+# NHN I&S
+- project: NHN IFRS 게임 이연매출(FI) 시스템 개발 및 운영
+  role: NHN I&S(정규직), 설계/개발/운영
+  duration: 2011.08 &mdash; 2011.10(운영 2011.10 &mdash; 2012.07)
+  # url: "#"
+  description:
+    <li> 이연 매출 시스템 설계 및 개발
+    <li> FI모듈로서 이연매출 PL/SQL을 통한 비니지스 엔진 개발
+    <li> 단독으로 IFRS 모듈 개발 및 설계 완료
+    <li> Flex, Java,, Lucy, BlazeDS , Spring, iBatis, Oracle 11g, PL/SQL
+
+# NHN I&S
+- project: NHN관리회계(CO) 시스템 개발 Version 2.0
+  role: NHN I&S(정규직), 개발
+  duration: 2010.10 &mdash; 2011.06
+  # url: "#"
+  description:
+    <li> NHN Neon플랫폼 기반의 관리회계 시스템 개발, 매출 I/F 연동 및 관리회계 마스터 화면 개발
+    <li> 대용량 PL/SQL을 통한 배부 엔진 관리 지원
+    <li> 통합형상관리 지원 및 배포 테스트 자동화 구축(Nuxus, Hudson, Maven, Ant)
+    <li> 개발표준화문서 및 개발 가이드 작성
+    <li> Flex, Neon Framework, Jsp, JQuery, Java, Servlet, Lucy, BlazeDS, Spring, SimpleFramework, iBatis, Oracle 11g,
+
+# NHN I&S
+- project: NHN I&S 관리회계(CO) 시스템 개발 및 운영
+  role: NHN I&S(정규직), 개발
+  duration: 2010.04 &mdash; 2010.07(운영 지원 2011.06 &mdash; 2012.07)
+  # url: "#"
+  description:
+    <li> iBSheet 기반 마스터관리 UI개발
+    <li> OLAP(Mondrian) 회계 계정별 비용/수익 View 개발
+    <li> 대용량 PL/SQL을 통한 배부 엔진 관리
+    <li> Jsp, jQuery, Java,, Lucy, BlazeDS , Spring, iBatis, Oracle 10g, PL/SQL
+
+# NHN I&S
+- project: NHN 관리회계(CO) 시스템 개발Version 1.0
+  role: NHN I&S(정규직), 개발
+  duration: 2009.05 &mdash; 2009.08
+  # url: "#"
+  description:
+    <li> Flex기반 관리 회계시스템 개발
+    <li> CSV를 통한 Row데이터 집계데이터 지원 컴포넌트 개발
+    <li> 대용량 CSV 파일 업로드/다운로드 컴포넌트 개발
+    <li> 대용량 PL/SQL을 통한 배부 엔진 개발 지원 및 관리
+    <li> OLAP(Mondrian) 기반 레포팅 제공
+    <li> Flex, Java,, Lucy, BlazeDS , Spring, iBatis, Oracle 10g, PL/SQL, Mondrian
+
+# NHN I&S
+- project: NHN 전사 인력 투입 시스템 개발 및 운영
+  role: NHN I&S(정규직), 개발
+  duration: 2009.05 &mdash; 2009.08
+  # url: "#"
+  description:
+    <li> Flex컴포넌트 개발 및 입력 UI개발 및 설계
+    <li> Flex Chart를 통한 레포트UI 개발
+    <li> Flex, Java, Servlet, Lucy, Spring, iBatis, Oracle 10g
+
+# KCC 정보통신
+- project: PMS 시스템 개발
+  role: KCC정보통신(인턴), 기획/개발
+  duration: 2009.05 &mdash; 2009.08
+  # url: "#"
+  description:
+    <li> Function Point를 산출하여 PM를 기입하는 Flex UI 개발
+    <li> Struts Framework적용 MVC 구현 개발(controller 부분 및 DAO부분 개발)
+    <li> DB 모델링 및 서비스 아키텍쳐 설계
+    <li> Struts, Spring, IBatis, Jquery
+
+# WOC
+- project: W.O.C(최우수상), Android Content browser 개발
+  role: 모바일플레이스 박성서 멘토님 지도, 대학생 개발자 8명이 진행한 프로젝트
+  duration: 2008.12 &mdash; 2009.03
+  # url: "#"
+  description:
+    <li> Android Beta 플랫폼 기반, Tagging, View, Map를 활용하여 저장된 Content를 다양한 뷰로 제공하는 어플리케이션
+    <li> 데이터 저장은 SqlLite사용, 최우수상 수상
+
+
+# 차세대 통신 서비스 모델 공모전
+- project: 차세대통신 서비스모델 공모전(우수상), BT Grobal Connection 개발
+  role: 한스뮤처얼 회사에서 프리랜서로 서비스 비즈니스 모델에 대한 가능성 연구 및 개발
+  duration: 2008.12 &mdash; 2009.03
+  # url: "#"
+  description:
+    <li> Ribbit API를 활용한 Wap2.0 Protocol기반의 InBound OutBound Call 시스템 개발
+
+# 2008 소프트웨어 경진대회
+- project:  2008 소프트웨어 경진대회(격려상), OpenAPI를 이용한 SNS 개발
+  role: 1인
+  duration: 2008.07 &mdash; 2008.09
+  # url: "#"
+  description:
+    <li> Mashup을 활용한 SNS 웹 서비스 개발(Naver, Daum, Yahoo, Google, Flickr)
+    <li> Web 2.0 사상을 적용한 Rich Application(Flex)적용
+    <li> Tomcat, Spring, Flex
