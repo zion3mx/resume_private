@@ -1,19 +1,42 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Line Plus
+  position: LADB정규직(11명), Server side Engineering
+  duration: 2017.02 &mdash; Present
+  summary: 라인 광고를 위한 Business Infra Platform을 제공(개발기여도)
+    <li> 광고 상품/ 광고주, 대행사/ 광고계약 등에 대한 Entity 관리 in LAMP(75%)
+    <li> 광고 상품 청구 및 지급을 위한 Billing Account 관리(100%)
+    <li> 광고 상품 이용에 서비스 플랫폼과의 정산 수행 (Settlement)(20%)
+    <li> 빌링 형태에 따른 청구 및 채권 관리 (Billing)(30%)
+    <li> 광고 상품 이용을 위한 여러 결제 수단 및 Tax 제공 (Payment)(60%)
+    <li> 광고 수익 쉐어를 위한 플랫폼 제공(30%)
+    <li> 광고 비즈니스 플랫폼 상에서 운용할 AD Credit 관리 및 제공
+    <li> 매출, 커미션, 지급, PG 수수료 등 J.E 관리(50%)
+
+- company: LINE BIZ PLUS Corp.
+  position: LAMP(정규직2명, 외주직 3명), SW개발
+  duration: 2015.05 &mdash; 2017.01
+  summary: LINE Ad Sales Mgt. Platform
+    <li> 글로벌(TH/TW/IDN/JP) 광고의 모든 수주, 계약, 거래처, 정산, 발행 업무 자동화 80%
+    <li> 매출, 커미션, 채권, 미수금, 선수수익, 이연매출 등 J.E 관리 80%
 
 # Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: 안전행정부 정부통합전산센터
+  position: 정보시스템1과 / 전산서기(정규직)
+  duration:  2012.08 &mdash; 2015.05
+  summary: G-클라우드 및 공개 SW, 공개 SW 기술지원
 
 
 # Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: NHN I&S
+  position: 경영정보개발2팀, 사원(정규직), SW개발
+  duration: 2009.08  &mdash; 2012.08
+  summary: NHN MIS 시스템 개발
+    <li>NHN 전사인력투입시스템개발
+    <li>NHN-I&S 관리회계(CO) 시스템 개발 및 운영
+    <li>Mondrian(OLAP) 다차원 View 추가 개발
+    <li>NHN 관리회계(CO) 시스템 개발 및 운영 Version1.0, 2.0
+    <li>2011 NHN 우수프로젝트 큐브 수상
+    <li>NHN ESM(EAI)시스템 운영
+    <li>NHN IFRS 게임 이연매출(FI) 시스템 개발
+
