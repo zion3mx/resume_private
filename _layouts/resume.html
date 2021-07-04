@@ -48,6 +48,34 @@
 
       </header>
 
+      {% if site.resume_section_questions %}
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>아래 3가지 사항</h2>
+        </header>
+
+        {% for skill in site.data.questions %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ skill.question }}</h4>
+          <p class="resume-item-copy">{{ skill.goal }}</p>
+          <!--<img src="images/2goal.png" alt="my photo" class="avatar no-print" itemprop="image" height="500" width="700">-->
+          {% if skill.imageGoal %}
+          <img src="{{ skill.imageGoal }}" alt="my photo" class="avatar no-print" itemprop="image" height="400" width="700">
+          {% endif %}
+          <p class="resume-item-copy">{{ skill.answer }}</p>
+          {% if skill.imageResolve %}
+          <img src="{{ skill.imageResolve }}" alt="my photo" class="avatar no-print" itemprop="image" height="350" width="700">
+          {% endif %}
+
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Interests -->
+      {% endif %}
+
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">

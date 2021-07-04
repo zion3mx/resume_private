@@ -1,0 +1,36 @@
+# Interests
+- question: 업무에서 반복적으로 발생하는 문제를 해결하기 위해 자동화했거나, 기존과 다른 방식으로 문제를 해결한 사례를 하나만 작성해 주세요.
+  goal: JP의 모든 B2B 거래처 데이터를 LINE Ads 광고 조직에서 사용하는 공용 API 모듈을 설계 및 개발, 핵심 골은 다음과 같습니다.
+           <ol>
+           <li> 현재 JP에 등록되 모든 B2B 거래처(약 400만 건)에 대한 공용 API를 제공한다.
+           <li> 일별 JP 국세청 모듈과 연동하여 데이터를 현행화하고 폐점 거래처는 노티피케이션 하는 I/F를 제공한다.
+           <li> 초성 Like 검색을 제공하는 API를 제공한다.(개발 기간에 추가 요청 사항으로 접수)
+           </ol>
+  answer:
+    JP 국세청 모듈과 일별 싱크하는 Batch는 Jenkins의 스케줄러 잡으로 동작합니다. 일별 배치에서 폐점된 정보가 있다면 Kafka를 활용하여 프로듀만 수행하고 데이터 소비는 서비스 채널에서 컨슈밍 되도록 역할을 분리하여 설계되었다.<br/>
+    기술적으로 어려웠던 부분은 초성 Like 검색이다. nGram 기반 검색을 지원해주는 플랫폼 중 mySql에서 nGram search는 가능하나 안정적인 기능은 아니며 일본어(반각/전각) 초성 검색은 불안정하다는 결론 아래 Elastic Search를 활용하기로 했다.<br/>
+    MySql과 Elastic Search 데이터의 동기화가 가장 큰 이슈로, Hibernate ORM에서 추출한 데이터와 동기화 된 ElasticSearch 클러스터를 유지할 수있는 HibernateSearch 오픈소스를 테스트하여 정상적으로 동기화 됨을 검증하였다.<br />
+    다만 최조 싱크 시 대량의 데이터를 Elastic Search의 Index 생성 시 몇십분 정도 소요 되고 있었고, 이를 해결하고자 MassIndexer(병렬 쓰레드 자원 사용)를 활용하여 단시간에 싱크를 맞출 수 있게 되었다. <br />
+    Elastic Search에서 반각/전각에 대한 초성 검색 여부는 또 다른 영역의 이슈였다. ES는 루씬을 사용하며 Hibernate Search 에서도 루씬을 사용한다. ES에서 Analyzer를 Hibernate Search에서 모두 자동으로 만들어 주기 때문에 루씬 라이브러리를 서베이하여 적절한 Analyzer&Tokenizer를 찾을 수 있었고 Elastic Search에 정상적인 index와 analyzer가 연동됨을 확인하였다.</br>
+    최종적으로 Hibernate ORM에서 루씬을 활용하여 인덱스 정보를 .java 및 annotation으로 설정하였고 관련 데이터가 ES에 저장되어 초성 검색에 대한 API를 제공 할 수 있었다.<br />
+    여기서 끝낼 수 있겠지만 일배치에 대한 레포팅을 위하여 Kibana Dashboard를 생성하여 내부 운영 툴로 활용하고 있다.
+    </p>
+- question: 최근 개발한 코드 중 기억에 남는 사례를 하나만 작성해 주세요. (난이도, 복잡도 높은 프로그램 위주로 소개)
+  goal: 제 데이터를 이관하는 프로젝트에서 Daily Batch의 경우 대량 결제 데이터를 이관하고 2시간 이내 TH 세금계산서(TDID) 발급
+  answer:
+     Spring-batch chunk 단위로 kafka message를 프로듀싱하며, N대 서버에서 동일한 group Id를 지정하여 메세지를 소비합니다. 메세지를 소비하는 로직에서 TH 세금계산서(TDID) 모듈과 연동하며 상황에 따라 처리량을 조율하는 유연한 구조 설계 <br/>
+     메세지를 생산 파트는 chunk 단위로 throughput를 관리하며, 메세지를 소피하는 파트는 concurrency thread pool를 활용하여 throughput를 관리하는 모듈로 최종 확정<br />
+     Data Flow는 정상적으로 진행이 되었으나 각 VM마다 약 10개의 thread가 동시에 issue를 하고 그 과정 중에 invoiceNo가 중복 채번되어 unique key error 발생(4만건 작업 시 약 35건)<br />
+     코드 리뷰 및 팀원들과 다양한 아이디어를 바탕으로 가장 효율적인 안을 채택하는 과정에서 팀워크에 대한 중요성을 재인식<br />
+     <ol>
+     <li>invoiceNo 만을 위한 별도의 테이블 생성하고 CAS 방식으로 경합 후에 이 테이블에 들어가면 그걸 가져가서 쓴다.
+     <li>세개의 컬럼으로 복합 primary key 설정하고 조건에 맞는 row들을 구하고 order 의 max 값을 구한 후 거기서 +1을 더한다.
+     <li>만약에 경합이 일어날 시, CAS 방식으로 threshold 만큼 다시 구한다.
+     <li>테이블에 행이 들어가게 되면, 그 이후 과정을 진행한다.
+     </ol>
+  imageGoal: /images/2goal.png
+  imageResolve: /images/2resolve.png
+- question: 최근 새로운 기술에 대해 깊이 있게 학습한 경험을 작성해 주세요.
+  answer: 라인 Ads 인턴과 진행하는 과제를 멘토링하고 있는데요. QA시 자동화를 위한 목적으로 특정 메서드에 대하여 에러 혹은 응답 객체를 조작하는 프로젝트를 진행하고 있습니다.<br />
+    Spring의 aop를 활용하며 룰셋 검사기를 동작시킵니다. 이떄 요청 파라미터에 대한 응답 객체를 조작하는데요. 룰셋의 최신 정보를 관리하기 위하여 주키퍼의 데이터 노드를 사용하여 변경에 대한 Notification을 감지합니다. 이떄 룰셋 검사기에 대한 캐시를 리로드하는 트리거를 동작합니다. <br />
+    이번 과제를 위하여 프로토 타입으로 주키퍼에 대한 프로토타입을 분석하고 있습니다.
