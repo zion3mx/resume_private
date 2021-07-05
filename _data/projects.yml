@@ -16,7 +16,7 @@
     </ul>
     <li>Online OA Business Transfer(TH) 전반적인 일정 관리 및 개발 이슈 사항에 대한 해결
 
-    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins, nClavis
+    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok MapStruct, lamda Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins, nClavis, Zipkin
     </ul>
 
 - project: LADB
@@ -53,7 +53,7 @@
       <li>TH/TW/IDN에서 안정적 채권/매출/비용 관리에 대한 운영 지원
       <li> Offline Customer/Campaign/Invoice 등 안정적 유지 관리 및 기획 업무 지원
     </ul>
-    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins
+    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok MapStruct, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins
     </ul>
 
 - project: LADB
@@ -98,7 +98,7 @@
         <li> <b><u>국세청 JP 거래처 연동 및 검색엔진 개발, API 운영</u></b>
       </ul>
      </li>
-     <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Serverless Function, Jenkins
+     <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok MapStruct, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Serverless Function, Jenkins
     </ul>
 
 - project: LADB
