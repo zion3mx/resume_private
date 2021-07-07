@@ -1,12 +1,6 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: IBM
-  role: Campus Wizard 4기(developerworks)
-  year:  2009.03 &mdash;  2009.07
-  url: https://www.peta.org/
-  summary: 소수정예 멤버(15명)로 합격했으며 다른 학교의 다양한 인재들과 교류 및 홍보 활동 수행, 특히 경북권 컴공인들을 위한 커뮤니티 활성화 및 인프라 구축을 위한 노력을 인정 받음
-
 - organization: 정보산업연합회
   role: 멘토
   year: 2015 &mdash; 2020
@@ -25,3 +19,15 @@
   year: 2004.&mdash; 2010
   url:
   summary: 사회 환원을 위한 목적으로 시작한 헌혈 50회 이상, 금장 수여
+
+- organization: IBM
+  role: Campus Wizard 4기(developerworks)
+  year:  2009.03 &mdash;  2009.07
+  url: https://www.peta.org/
+  summary: 소수정예 멤버(15명)로 합격했으며 다른 학교의 다양한 인재들과 교류 및 홍보 활동 수행, 특히 경북권 컴공인들을 위한 커뮤니티 활성화 및 인프라 구축을 위한 노력을 인정 받음
+
+- organization: 해병대
+  role: 이라크 3진 파병
+  year: 2004.&mdash; 2005
+  url:
+  summary: 자이툰 부대 평화 유지군 업무 수행

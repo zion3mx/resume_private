@@ -9,15 +9,15 @@
   duration: 2021.12 &mdash; Present
   # url: "#"
   description:
-    <ul>
-    <li>Global SelfServe 전반적인 일정 관리 및 개발 이슈 사항에 대한 해결
-    <ul>
-      <li> Payment Module 담당자 퇴사로 인한 리스크 관리 및 해당 모듈을 지원하여 안정적 서비스 릴리즈에 기여
-    </ul>
-    <li>Online OA Business Transfer(TH) 전반적인 일정 관리 및 개발 이슈 사항에 대한 해결
-
-    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins, nClavis
-    </ul>
+      <ul>
+      <li> LADB 개발
+      <ul>
+      <li><b><u>LADB Phase 3.11 시스템 개발</u></b></li>
+        <li> OACMS와 SMM에 대한 광고 수익 쉐어, 지불 프로세스 처리</li>
+        <li> SMM 지불 프로세스에 대한 Payment.Id 개발 및 Neon 지불 거래처와 연동 관리 </li>
+      </ul>
+      <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok, MapStruct, Severless Funciton, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, nClavis, Zipkin, Liquibase, Thymeleaf, Mustche, JWT, Swagger, Vue.js
+      </ul>
 
 - project: LADB
   role: LINE Plus / ADS & Business / LADB
@@ -31,21 +31,20 @@
       <ul>
         <li>Billing Account 구조로 LADg 정산, 청구 등을 처리</li>
       </ul>
-      <li><b><u>LADB Phase 3.3 시스템 개발</u></b></li>
+
+      <li><b><u>LADB Phase 3.3, 3.5 일정 관리 및 개발 리딩</u></b></li>
       <ul>
         <li> LADM Self-serve (Online Billing Account) related features in TH and TW</li>
         <li> Local Credit Cart Payment </li>
         <li> 세금계산서(eGUi, TDID), PG 수수료, 결제 데이터 대사, 원천세 환급, 정산 등 로컬라이제이션 </li>
+        <li> Payment Module 담당자 퇴사로 인한 리스크 관리 및 해당 모듈을 지원하여 안정적 서비스 릴리즈에 기여
       </ul>
-      <li><b><u>LADB Phase 3.5 시스템 개발</u></b></li>
+      <li><b><u>LADB Phase 3.7 시스템 일정 관리 및 개발 리딩</u></b></li>
       <ul>
-        <li> OACMS와 SMM에 대한 광고 수익 쉐어, 지불 프로세스 처리</li>
-        <li> SMM 지불 프로세스에 대한 Payment.Id 개발 및 Neon 지불 거래처와 연동 관리 </li>
-      </ul>
-      <li><b><u>LADB Phase 3.7 시스템 개발</u></b></li>
-      <ul>
+        <li> Online OA Business Transfer(TH)
         <li> OA CMS TH 결제 이관 및 세금 계산서 처리</li>
         <li> 대량의 결제 데이터 I/F에 대한 효율적인 아키텍처 논의 및 수립(OA CMS <-> Payment Account <-> TDID)</li>
+        <li> Payment Module 담당자 퇴사로 인한 리스크 관리 및 해당 모듈을 지원하여 안정적 서비스 릴리즈에 기여
       </ul>
     </ul>
     <li> LAMP 운영
@@ -53,7 +52,7 @@
       <li>TH/TW/IDN에서 안정적 채권/매출/비용 관리에 대한 운영 지원
       <li> Offline Customer/Campaign/Invoice 등 안정적 유지 관리 및 기획 업무 지원
     </ul>
-    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins
+    <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok, MapStruct, Severless Funciton, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, nClavis, Zipkin, Liquibase, Thymeleaf, Mustche, JWT, Swagger, Vue.js
     </ul>
 
 - project: LADB
@@ -84,7 +83,7 @@
         </ul>
       </ul>
 
-      <li> LAMP운 영
+      <li> LAMP 운영
       <ul>
         <li> Global B2B 광고 캠페인 및 정산 운영
         <li> Global B2B 광고 매출 / 비용에 대한 기간인식 개선 및 운영
@@ -98,7 +97,7 @@
         <li> <b><u>국세청 JP 거래처 연동 및 검색엔진 개발, API 운영</u></b>
       </ul>
      </li>
-     <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Serverless Function, Jenkins
+     <li>Spring-boot, Spring-cloud, Spring REST docs, Jooq, lombok, MapStruct, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, Liquibase, Thymeleaf, Mustche, JWT, Swagger, Vue.js
     </ul>
 
 - project: LADB
@@ -122,7 +121,7 @@
       <li>Billing Account 체계를 수립하여 AGP, LADM 등의 정산, 청구 등을 처리</li>
       <li>Billing Account API 개발, 거래처 연계, 정산 결과에 따른 J.E 연계 모듈 개발</li>
       </ul>
-      <li>Spring-boot, Spring-cloud, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, ObjectStorage, Jenkins, Swagger
+      <li>Spring-boot, Spring-cloud, Jooq, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, Swagger, Vue.js, jQuery
     <ul>
 #
 #
@@ -158,7 +157,7 @@
       <li> [공통] 거래처 빌링 구조 개선 및 일본 거래처 Fetch/Sync 관련 Neon I/F 기능 개발
       <li> [공통] 캠페인/상품관련/매출통화/청구통화 등 기능 고도화
       </ul>
-      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, QP, Git, Jenkins, Apache, Tomcat
+      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, QP, Git, Jenkins, Apache, Tomcat, Quartz
     </ul>
 
 ## LINE
@@ -201,7 +200,7 @@
         <li> json 요청에 대한 응답 방식을 공통 로직을 활용한 중복 코드 개선</li>
         </ul>
       </ul>
-      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, QP, Git, Jenkins, Apache, Tomcat
+      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, QP, Git, Jenkins, Apache, Tomcat, Quartz
     </ul>
 # LINE
 - project: LAMP(Line Global Ad sales Management Platform)
@@ -221,7 +220,7 @@
         <li>추가 기능 개선 및 안정적 서비스 배포</li>
         <li>광고 계약 데이터에 대한 운영 지원</li>
       </ul>
-      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, SVN, Jenkins, Apache, Tomcat
+      <li>Spring, Lucy, Jsp, JQuery, iText, iBatis, Oracle 12g, SVN, Jenkins, Apache, Tomcat, Quartz
 
 # 안전행정부 정부통합전산센터
 - project: G-클라우드 시스템 운영 및 관리
