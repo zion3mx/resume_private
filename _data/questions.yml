@@ -21,8 +21,8 @@
      <li>만약에 경합이 일어날 시, CAS 방식으로 threshold 만큼 다시 구합니다.
      <li>테이블에 행이 들어가게 되면, 그 이후 과정을 진행합니다.
      </ol>
-  imageGoal: /images/2goal.png
-  imageResolve: /images/2resolve.png
+  imageGoal: images/2goal.png
+  imageResolve: images/2resolve.png
 - question: 최근 새로운 기술에 대해 깊이 있게 학습한 경험을 작성해 주세요.
   goal: (Goal) JP의 모든 B2B 거래처 데이터를 LINE Ads 광고 조직에서 사용하는 공용 API 모듈을 설계 및 개발, 핵심 골은 다음과 같습니다.
            <ol>
