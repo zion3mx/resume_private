@@ -1,7 +1,7 @@
 # Jobs
 # VP of Global Communications
 - company: Line Plus
-  position: LADB정규직(11명), Server side Engineering
+  position: LADB정규직, Server side Engineering
   duration: 2017.02 &mdash; Present
   summary: 라인 광고를 위한 Business Infra Platform을 제공(개발기여도)
     <li> 광고 상품/ 광고주, 대행사/ 광고계약 등에 대한 Entity 관리 in LAMP(75%)
@@ -14,7 +14,7 @@
     <li> 매출, 커미션, 지급, PG 수수료 등 J.E 관리(50%)
 
 - company: LINE BIZ PLUS Corp.
-  position: LAMP(정규직2명, 외주직 3명), SW개발
+  position: LAMP, SW개발
   duration: 2015.05 &mdash; 2017.01
   summary: LINE Ad Sales Mgt. Platform
     <li> 글로벌(TH/TW/IDN/JP) 광고의 모든 수주, 계약, 거래처, 정산, 발행 업무 자동화 80%
