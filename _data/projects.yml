@@ -16,7 +16,7 @@
         <li> OACMS와 SMM에 대한 광고 수익 쉐어, 지불 프로세스 처리</li>
         <li> SMM 지불 프로세스에 대한 Payment.Id 개발 및 Neon 지불 거래처와 연동 관리 </li>
       </ul>
-      <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok, MapStruct, Severless Funciton, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, nClavis, Zipkin, Liquibase, Thymeleaf, Mustche, JWT, Swagger, Vue.js
+      <li>Spring-boot, Spring-cloud, Spring-batch, Spring REST docs, Jooq, lombok, MapStruct, Severless Funciton, Redis, Kafka, ElasticSearch, Kibana, Hibernate search, Retrofit2, Armeria, Nginx, MySql, Object Storage, Jenkins, nClavis, Zipkin, Liquibase, Thymeleaf, Mustche, JWT, Swagger, Vue.js
       </ul>
 
 - project: LADB
